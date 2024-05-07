@@ -120,7 +120,6 @@ class SeeDB(object):
                     self.prune.append(k)
                 else:
                     utilities.append((v, k))
-        print(sorted(utilities)[::-1][:self.top])
         return sorted(utilities)[::-1][:self.top]
 
 
